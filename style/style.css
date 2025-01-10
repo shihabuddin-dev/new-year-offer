@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Buenard:wght@400;700&family=Flamenco:wght@300;400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Buenard:wght@400;700&family=Flamenco:wght@300;400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Merriweather", "Inter", serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Style  */
+
+.hero-bg {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    left: 140px;
+    right: -140px;
+    top: 50px;
+    bottom: -50px;
+
+
+}
+
+.hero-caption {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-title {
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* 65% off section style  */
+.off-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.off-section-title {
+    margin-top: 120px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.off-section-subtitle {
+    margin-top: 48px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.off-section-caption {
+    margin-top: 16px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+
+}
+
+.off-section-img {
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+    border: 1.4px dashed #878787cc;
+
+
+}
+
+/* Welcome to midnight Party Section Style  */
+.party-section {
+    margin-top: 120px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.party-section-right {
+    width: 349.16px;
+    height: 464.65px;
+    border: 1.4px dashed #878787cc;
+}
+
+.party-section-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 11px;
+
+}
+
+.party-section-caption {
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.party-section-join {
+    margin-top: 48px;
+    margin-left: 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+/* Join Now Section  */
+.join-now-section {
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+    width: 1320px;
+    height: 482px;
+    margin-top: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.join-now-title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.join-now-title span {
+    color: red;
+}
+
+.join-now-btn {
+    font-size: 20px;
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    color: white;
+    margin-top: 48px;
+
+}
+
+/* Coming Soon Section  */
+.coming-section {
+    width: 1320px;
+    height: 463px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.coming-section-subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.coming-section-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 16px;
+}
+
+.coming-section-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.coming-section-center {
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    width: 463px;
+    height: 463px;
+    left: 603px;
+    top: 3018px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.coming-section-center-img {
+    border: 1.4px dashed #878787cc;
+}
+.coming-section-right{
+    margin-top: auto;
+}
+.coming-section-right-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.coming-section-right-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-section-right-img {
+    border: 1.4px dashed #878787cc;
+    margin-top: 48px;
+}
+/* Holiday section style  */
+.holiday-section{
+    
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: 120px;
+}
+.holiday-section-subtitle{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    
+}
+.holiday-section-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin-top: 16px;
+}
+.holiday-section-title span{
+    color: rgb(255, 0, 0);
+}
+.holiday-section-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 28px;
+}
