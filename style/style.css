@@ -3,9 +3,13 @@
 
 body {
     font-family: "Merriweather", "Inter", serif;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-
+body>main>section{
+    margin-bottom: 120px;
+}
 
 * {
     margin: 0;
@@ -30,8 +34,7 @@ body {
     right: -140px;
     top: 50px;
     bottom: -50px;
-
-
+    margin-top: 50px;
 }
 
 .hero-caption {
@@ -97,9 +100,6 @@ body {
     margin-top: 48px;
     width: 802.9px;
     height: 500px;
-    border: 1.4px dashed #878787cc;
-
-
 }
 
 /* Welcome to midnight Party Section Style  */
@@ -119,7 +119,6 @@ body {
 .party-section-right {
     width: 349.16px;
     height: 464.65px;
-    border: 1.4px dashed #878787cc;
 }
 
 .party-section-title {
@@ -244,12 +243,10 @@ body {
     text-align: center;
 }
 
-.coming-section-center-img {
-    border: 1.4px dashed #878787cc;
-}
-.coming-section-right{
+.coming-section-right {
     margin-top: auto;
 }
+
 .coming-section-right-title {
     color: rgb(255, 0, 0);
     font-family: Inter;
@@ -267,42 +264,94 @@ body {
 }
 
 .coming-section-right-img {
-    border: 1.4px dashed #878787cc;
     margin-top: 48px;
 }
+
 /* Holiday section style  */
-.holiday-section{
-    
-display: flex;
-flex-direction: column;
-text-align: center;
-align-items: center;
-justify-content: center;
-margin-top: 120px;
+.holiday-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
 }
-.holiday-section-subtitle{
+
+.holiday-section-subtitle {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    
+
 }
-.holiday-section-title{
+
+.holiday-section-title {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 91px;
     margin-top: 16px;
 }
-.holiday-section-title span{
+
+.holiday-section-title span {
     color: rgb(255, 0, 0);
 }
-.holiday-section-description{
+
+.holiday-section-description {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     margin-top: 28px;
+}
+.holiday-img{
+    position: relative;
+    padding-top: 500px;
+}
+.holiday-img-giftbox{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.holiday-img-discount{
+    position: absolute;
+    bottom: 250px;
+    left: 950px;
+}
+/* Our Awesome Portfolio Section  */
+.portfolio{
+    height: 1163px;
+}
+.portfolio-subtitle{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio-title{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+padding-top: 20px;
+}
+.portfolio-caption{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 20px;
+}
+.portfolio-img-top{
+    padding-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.portfolio-img-bottom{
+    padding-top: 24px;
+    display: flex;
+    gap: 24px;
 }
