@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
 }
 
-body>main>section{
+body>main>section {
     margin-bottom: 120px;
 }
 
@@ -306,38 +306,45 @@ body>main>section{
     line-height: 32px;
     margin-top: 28px;
 }
-.holiday-img{
+
+.holiday-img {
     position: relative;
     padding-top: 500px;
 }
-.holiday-img-giftbox{
+
+.holiday-img-giftbox {
     position: absolute;
     left: 0;
     bottom: 20px;
 }
-.holiday-img-discount{
+
+.holiday-img-discount {
     position: absolute;
     bottom: 250px;
     left: 950px;
 }
+
 /* Our Awesome Portfolio Section  */
-.portfolio{
+.portfolio {
     height: 1163px;
 }
-.portfolio-subtitle{
+
+.portfolio-subtitle {
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
-.portfolio-title{
+
+.portfolio-title {
     color: rgb(7, 2, 17);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-padding-top: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 20px;
 }
-.portfolio-caption{
+
+.portfolio-caption {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
@@ -345,13 +352,122 @@ padding-top: 20px;
     line-height: 32px;
     padding-top: 20px;
 }
-.portfolio-img-top{
+
+.portfolio-img-top {
     padding-top: 48px;
     display: flex;
     gap: 24px;
 }
-.portfolio-img-bottom{
+
+.portfolio-img-bottom {
     padding-top: 24px;
     display: flex;
     gap: 24px;
+}
+
+/* Subscribe Newsletter Section Style  */
+.subscribe {
+    height: 616px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-img {
+    padding-top: 80px;
+}
+
+.subscribe-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+.subscribe-caption {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
+}
+
+.subscribe-field {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-field-input {
+    width: 648px;
+    height: 72px;
+}
+
+.subscribe-field-input {
+    width: 380px;
+    height: 72px;
+    border: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.subscribe-field-btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Section Style  */
+footer {
+    height: 609px;
+    background: rgb(7, 2, 17);
+    border-radius: 16px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.footer-top-text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-social-icon {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom-text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 60px;
 }
